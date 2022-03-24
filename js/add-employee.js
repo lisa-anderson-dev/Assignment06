@@ -16,7 +16,7 @@ window.addEventListener('load', () => {
 
 // CREATE A HELPER FUNCTION TO RETRIEVE THE HTML ELEMENTS FROM THE DOM
 
-    const $ = (id) => document.getElementById(id);
+    const $ = id => document.getElementById(id);
 
 // HANDLE THE CANCEL BUTTON. WHEN THE USER CLICKS THIS BUTTON, CLOSE THE WINDOW
 
